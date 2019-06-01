@@ -16,6 +16,7 @@ body {
     font-size: 35px; 
     font-family: Average; 
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=101112);
+    margin: 0;
 }   
 
 ul li {
@@ -69,6 +70,7 @@ ul li {
 #funciona {
     display: flex;
     align-items: end;
+    margin-bottom: 0 !important;
 }
 
 #funciona h2 {
@@ -82,6 +84,8 @@ ul li {
 #funciona > img {
     width: 500px;
     height: auto;
+    align-self: flex-end;
+    
 }
 
 #cart {
@@ -117,4 +121,12 @@ ul li {
     margin: 0 auto;
     color: #e681ac;
     text-decoration: none;
+    margin-bottom: 50px;
+}
+
+#footer {
+    height: 50px;
+    border-top: 3px solid #412f3a;
+    width: 100%;
+
 }
