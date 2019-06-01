@@ -1,23 +1,120 @@
 @font-face {
     font-family: Average;
     src: url(../fonts/Average-Regular.ttf);
-  }
+}
   
+@font-face {
+font-family: Fjalla One;
+src: url(../fonts/FjallaOne-Regular.ttf);
+}
 
+
+  
 body {
     background-color: #080010;
     color: #e681ac;
     font-size: 35px; 
     font-family: Average; 
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=101112);
 }   
+
+ul li {
+    list-style: none;
+
+}
 
 #content {
     max-width: 1100px ;
     margin: 0 auto;
 }
 
+#content > div {
+    margin-bottom: 110px;
+}
 
-ul li {
-    list-style: none;
+#gallery-content {
+    margin-top: 66px;
+    width: 100%;
+    height: 300px;
+}
 
+#gallery-content > img {
+    height: 178%;
+    float: right;
+    margin-top: -66px;
+}
+
+.gallery {
+    width: 92%;
+    height: 100%;
+    background: white;
+}
+
+#tablet {
+    width: 500px;
+}
+
+#sticker {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pins {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#funciona {
+    display: flex;
+    align-items: end;
+}
+
+#funciona h2 {
+    font-family: Fjalla One;
+    font-size: 69px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+
+}
+
+#funciona > img {
+    width: 500px;
+    height: auto;
+}
+
+#cart {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.purchase:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.8;
+    /* -webkit-box-shadow: 0px 0px 5px 1px rgba(198, 31, 204, 0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(198, 31, 204, 0.75);
+    box-shadow: 0px 0px 5px 1px rgba(198, 31, 204, 0.75);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; */
+}
+
+.purchase:hover label {
+    text-shadow: 2px 1px 2px #d8005c;
+}
+
+.purchase:hover img {
+    opacity: 0.8;
+}
+
+.purchase {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+    color: #e681ac;
+    text-decoration: none;
 }
