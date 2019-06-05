@@ -8,16 +8,27 @@ font-family: Fjalla One;
 src: url(../fonts/FjallaOne-Regular.ttf);
 }
 
+html {
+    min-width: 100%;
+    min-height: 100%;
+}
 
   
 body {
     background-color: #080010;
-    color: #e681ac;
+
     font-size: 35px; 
     font-family: Average; 
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=101112);
     margin: 0;
 }   
+
+footer {
+    min-height: 20%;
+    color: aquamarine;
+    word-wrap: break-word;
+    margin: 2%;
+}
 
 ul li {
     list-style: none;
@@ -27,6 +38,7 @@ ul li {
 #content {
     max-width: 1100px ;
     margin: 0 auto;
+    color: #e681ac;
 }
 
 #content > div {
@@ -37,12 +49,14 @@ ul li {
     margin-top: 66px;
     width: 100%;
     height: 300px;
+    position: relative;
 }
 
 #gallery-content > img {
     height: 178%;
-    float: right;
+    position: absolute;
     margin-top: -66px;
+    right: 0%;
 }
 
 .gallery {
@@ -62,9 +76,9 @@ ul li {
 }
 
 #pins {
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin-left: 10%;
 }
 
 #funciona {
@@ -76,7 +90,7 @@ ul li {
 #funciona h2 {
     font-family: Fjalla One;
     font-size: 69px;
-    margin-bottom: -20px;
+    margin-bottom: -3px;
     margin-left: 10px;
 
 }
@@ -93,6 +107,7 @@ ul li {
     display: block;
     cursor: pointer;
 }
+
 
 .purchase:hover {
     cursor: pointer;
@@ -123,6 +138,8 @@ ul li {
     text-decoration: none;
     margin-bottom: 50px;
 }
+
+
 
 #footer {
     height: 50px;
