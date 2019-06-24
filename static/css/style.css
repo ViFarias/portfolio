@@ -24,10 +24,11 @@ body {
 }   
 
 footer {
-    min-height: 20%;
-    color: aquamarine;
+    min-height: 10%;
+    color: #ff4896;
     word-wrap: break-word;
-    margin: 2%;
+    font-size: 30px;
+    margin-top: 10px !important;
 }
 
 ul li {
@@ -142,8 +143,13 @@ ul li {
 
 
 #footer {
-    height: 50px;
+    height: 40px;
     border-top: 3px solid #412f3a;
     width: 100%;
+
+}
+
+#credito {
+    margin-left:20%;
 
 }
